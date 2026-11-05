@@ -1,3 +1,6 @@
+Note the source files above isn't complete please download the file in releases 
+it is because there's to many files in the project
+
 # TatagMarinduque
 
 A Next.js and Express prototype for a Marinduque micro-enterprise directory, wholesale quote requests, and a local sourcing bulletin. All makers and records in the included demo data are fictional sample data; replace them only with information that has been confirmed and approved for publication.
