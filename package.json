@@ -1,0 +1,17 @@
+{
+  "name": "tatag-marinduque",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently -k \"npm:dev:client\" \"npm:dev:server\"",
+    "dev:client": "npm --prefix client run dev",
+    "dev:server": "npm --prefix server run dev",
+    "build": "npm --prefix client run build",
+    "lint": "npm --prefix client run lint",
+    "seed": "npm --prefix server run seed",
+    "test:server": "npm --prefix server test"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}

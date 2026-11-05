@@ -1,0 +1,14 @@
+/* eslint-disable @next/next/no-html-link-for-pages, react/no-unescaped-entities */
+import "./about.css";
+
+export default function AboutPage() {
+  return (
+    <main className="simple-page">
+      <header className="simple-header"><a className="brand" href="/"><span className="brand-mark">T</span><span>Tatag<span className="brand-light">Marinduque</span></span></a><a href="/" className="simple-back">Back to home <span aria-hidden="true">↗</span></a></header>
+      <section className="simple-hero"><p className="eyebrow eyebrow-dark">ABOUT THIS PROJECT <span className="heading-line" /></p><h1>Local enterprise,<br /><em>connected.</em></h1><p>TatagMarinduque is a project concept for a digital directory and trade platform connecting the island's micro-enterprises with buyers and each other.</p></section>
+      <section className="about-columns"><article><span>01 / THE CHALLENGE</span><h2>More than a listing.</h2><p>Local makers need a simple way to show what they produce, share their capacity, hear from wholesale buyers, and find the materials that keep their work moving.</p></article><article><span>02 / THE RESPONSE</span><h2>Made for local trade.</h2><p>The concept brings a searchable maker directory, a direct quote request flow, and a shared raw-material sourcing board into one place.</p></article><article><span>03 / THE PEOPLE</span><h2>Built with makers in mind.</h2><p>Maker-facing workflows are intended to use plain language, large touch targets, and as few steps as possible. This prototype uses fictional records only.</p></article></section>
+      <section className="references"><p className="eyebrow eyebrow-dark">PROJECT REFERENCES <span className="heading-line" /></p><ol><li>G. M. Hernandez, L. S. Tan, and J. K. Aquino, “Web-based B2B platforms for rural MSME market expansion in island provinces,” <em>IEEE Transactions on Engineering Management</em>, vol. 70, no. 2, pp. 620–632, Apr. 2023.</li><li>X. L. Chen and P. R. Kumar, “Digitalizing indigenous craft supply chains through localized web registries,” <em>IEEE Access</em>, vol. 11, pp. 41020–41032, May 2023.</li><li>R. V. Soriano and A. C. Reyes, “E-commerce adoption barriers and strategic frameworks for micro-enterprises in developing archipelagos,” <em>IEEE Transactions on Professional Communication</em>, vol. 67, no. 1, pp. 45–58, Mar. 2024.</li></ol><p className="reference-note">References reproduced from the project brief; verify bibliographic details before submission.</p><p className="reference-note">Woven bamboo basket photo: Rajesh Dangi, Wikimedia Commons, CC BY-SA 3.0.</p></section>
+      <footer className="footer"><a className="brand footer-brand" href="/"><span className="brand-mark">T</span><span>Tatag<span className="brand-light">Marinduque</span></span></a><span>Prototype · Sample data only</span></footer>
+    </main>
+  );
+}
